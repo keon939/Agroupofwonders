@@ -1,12 +1,12 @@
-// Firebase configuration (replace with your actual config)
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  databaseURL: "https://YOUR_PROJECT_ID.firebaseio.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyC2dfk-WDOh5c1e_MqHwY13BFlP4G-2ztE",
+  authDomain: "rufed.firebaseapp.com",
+  databaseURL: "https://rufed-default-rtdb.firebaseio.com",
+  projectId: "rufed",
+  storageBucket: "rufed.appspot.com",
+  messagingSenderId: "52383545754",
+  appId: "1:52383545754:web:5e79e761948af784d1bb95"
 };
+
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
