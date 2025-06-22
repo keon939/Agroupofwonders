@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": ".",
+    "rewrites": [
+      { "source": "/admin", "destination": "/admin.html" },
+      { "source": "/moderator", "destination": "/moderator.html" },
+      { "source": "/user", "destination": "/user.html" }
+    ],
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}
